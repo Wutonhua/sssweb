@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+/*----HOME PAGE----------------------------------------------------------------*/
+
+*, html {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.left {
+    width: 70vw;
+    height: 100vh;
+    overflow-y: scroll;
+    background-image: url("bk2.png");
+    background-size:cover;
+}
+
+.right {
+    width: 30vw;
+    height: 100vh;
+    background-color: #2e2a24;
+    overflow-y: scroll;
+}
+
+@media screen and (max-width:768px){
+    .container{
+        display: block;
+    }
+    .left, .right{
+        height:100vh;
+        width: 100%;
+    }
+   
+}
+
+
+.homeBtn{
+    width:100px;
+    height:60px;
+    color: #2e2a24;
+    font-size: 60px;
+    margin-left:20px;
+    margin-top: 20px;
+    margin-right:20px;
+    position: fixed;
+    overflow-y:hidden;
+    
+}
+
+.homeBtn i {
+    transition: 0.1s linear all;
+}
+
+.homeBtn i:hover {
+    color:  #5cacbf;
+    transform: scale(1.05);
+}
+
+.moreBtn a{
+    display: block;
+}
+
+
+.igBtn{
+    width:38px;
+    height:38px;
+    color: #2e2a24;
+    font-size: 38px;
+    margin-left:40%;
+    margin-top:60px;
+}
+
+.igBtn i {
+    transition: 0.1s linear all;
+}
+
+.igBtn i:hover {
+    color:  #5cacbf;
+    transform: scale(1.05);
+}
+
+.infoBtn{
+    width:38px;
+    height:38px;
+    color: #2e2a24;
+    font-size: 38px;
+    margin-left:50%;
+    margin-top: -38px;
+}
+
+.infoBtn i {
+    transition: 0.1s linear all;
+}
+
+.infoBtn i:hover {
+    color:  #5cacbf;
+    transform: scale(1.05);
+}
+
+.contactBtn{
+    width:50px;
+    height:50px;
+    color: #2e2a24;
+    font-size: 38px;
+    margin-left:60%;
+    margin-top: -38px;
+}
+
+.contactBtn i {
+    transition: 0.1s linear all;
+}
+
+.contactBtn i:hover {
+    color:  #5cacbf;
+    transform: scale(1.05);
+}
+
+
+
+.title{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size:60px;
+    padding-left: 15%;
+    padding-right:120px;
+    padding-bottom: 10px;
+    padding-top:160px;
+    line-height:60px;
+    overflow-y: hidden;
+}
+
+.subtitle{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size:20px;
+    padding-left: 15%;
+    padding-right:100px;
+    padding-bottom: 10px;
+    padding-top:30px;
+    line-height:25px;
+}
+
+.right a {
+    display:flex;
+    padding: 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 25px;
+    outline:none;
+    background-color: #5cacbf;
+    transition: 0.3s all;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 10px 0 0 10px;
+}
+
+
+.right a:hover {
+    background-color: #FFDEAD;
+    color: #2e2a24;
+    transform:scale(1.1);
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+/*----ACADEMICS PAGE----------------------------------------------------------------*/
+
+
+.right button {
+    display:flex;
+    width: 100%;
+    padding: 25px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 23px;
+    border: none;
+    background-color: #5cacbf;
+    transition: 0.3s all;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    margin-top: 15px;
+    border-radius: 10px 0 0 10px;
+}
+
+.right button:hover {
+    background-color: #FFDEAD;
+    color: #2e2a24;
+    transform:scale(1.1);
+    cursor: pointer;
+}
+
+.la-book-open{
+    font-size: 30px;
+}
+
+.aca h1{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size:45px;
+    padding-left: 15%;
+    padding-right:100px;
+    padding-bottom: 10px;
+    padding-top:60px;
+    line-height:60px;
+    overflow-y: hidden;
+}
+
+.aca h2{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size:20px;
+    padding-left: 15%;
+    padding-right:60px;
+    padding-bottom: 10px;
+    padding-top:-10px;
+    line-height:25px;
+}
+
+
+
+/*----INFO PAGE----------------------------------------------------------------*/
+
+.wholeContainer{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #8FBC8F; */
+    background-image: url("bk2.png");
+    background-size:cover;
+    overflow-y: scroll;
+}
+
+.la-hand-holding-heart{
+    width:100px;
+    height:100px;
+    color: #2e2a24;
+    font-size: 60px;
+    margin-left:50%;
+    margin-top: 8px;
+}
+
+/*----FINANCIAL AID PAGE----------------------------------------------------------------*/
+.aca h1 a{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size:45px;
+    padding-left: 0;
+    padding-right:100;
+    padding-bottom: 10px;
+    padding-top:60px;
+    line-height:60px;
+    overflow-y: hidden;
+}
+
+.aca h1 a {
+    transition: 0.1s linear all;
+}
+
+.aca h1 a:hover {
+    color:  #5cacbf;
+    transform: scale(1.05);
+    text-decoration:underline;
+}
+
+.aca h2{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size:20px;
+    padding-left: 15%;
+    padding-right:60px;
+    padding-bottom: 20px;
+    padding-top:10px;
+    line-height:30px;
+}
+
+.aca h2 a {
+    transition: 0.1s linear all;
+}
+
+.aca h2 a:hover {
+    color:  #5cacbf;
+    text-decoration:underline;
+}
+
+.aca ol{
+    color: black;
+    font-family: 'Outfit', sans-serif;
+    font-size:18px;
+    padding-left: 20%;
+    padding-right:60px;
+    padding-bottom: 50px;
+    padding-top:-10px;
+    line-height:28px;
+}
